@@ -19,3 +19,6 @@ public class Ubicacion {
         return sedes;
     }
 }
+/* Aqui se genera una funcion que dentro de una variable se almacenan las 8 sede
+s en un arreglo unidimencional de cadenas.
+*/

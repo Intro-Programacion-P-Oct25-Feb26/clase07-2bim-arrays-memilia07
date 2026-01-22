@@ -22,8 +22,12 @@ public class Pedido {
             {240, 245, 250, 260, 255, 265, 200},
             {305, 310, 305, 315, 320, 302, 340}
         };
-        
+
         return pedidosCafeterias;
-                       
+
     }
+    /* Aqui dentro de la funcion ingresan los pedidos de lunes a domingo y los 
+    almacena en un arreglo bidimensional de enteros.
+    */
+
 }

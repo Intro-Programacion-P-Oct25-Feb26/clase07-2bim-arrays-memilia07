@@ -24,6 +24,11 @@ public class Operacion {
         }
 
         return promedios;
+        
+        /* Aqui esta funcion recibe la matriz bidimensional ed los pedidos y saca 
+        el promedio semanal de cada cafeteria almacenandolo en un arreglo unidimensional
+        y devolviendo este mismo arreglo.
+        */
     }
 
     public static int obtenerSumaTotal(int[][] pedidos) {
@@ -38,6 +43,11 @@ public class Operacion {
         }
 
         return suma;
+        /*
+        Aqui es una funcion que recibe la matriz bidimensional y suma todos los
+        valores para obetener la cantidad total de pedidos de todas las cafeterias 
+        durante toda la semana devolviendo una variable entera.
+        */
     }
 
     public static int[] obtenerSumaSemanal(int[][] pedidos) {
@@ -52,6 +62,11 @@ public class Operacion {
         }
 
         return sumaSemanal;
+        /* 
+        Aqui se hace una funcion donde recibe la matriz bidimensional donde suma
+        todos los pedidos de cada cafeteria y las almacena en un arreglo 
+        unidimensional y lo retorna.
+        */
     }
 
     public static int obtenerMenor(int[] pedidosCafeteria) {
@@ -64,6 +79,10 @@ public class Operacion {
             }
         }
         return menor;
+        /*
+        Aqui recibe el arreglo de los pedidos por cafeteria compara hasta encont
+        rar el menor de cada uno y lo almacena y retorna en un arreglo.
+        */
     }
 
     public static int obtenerMayor(int[] pedidosCafeteria) {
@@ -76,6 +95,12 @@ public class Operacion {
             }
         }
         return mayor;
+        
+        /*
+        Aqui recibe el arreglo de los pedidos por cafeteria y compara hasta enc
+        ontrar el mayor de cada uno y lo almacena y retorna en un arreglo.
+        */
     }
 
 }
+

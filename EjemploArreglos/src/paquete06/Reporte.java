@@ -32,4 +32,9 @@ public class Reporte {
             
         System.out.printf("%s\n", mensaje);
     }
+    /* 
+    El procedimiento recibe todos los parametros requeridos, junto a un for se 
+    arma el reporte de las cafeterias usando un String format para asi terminar
+    imprimiendolo como fue solicitado.
+    */
 }

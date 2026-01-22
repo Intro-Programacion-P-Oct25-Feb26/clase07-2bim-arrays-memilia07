@@ -18,6 +18,10 @@ public class Informe {
             suma = suma + pedidos[i][dia-1];
         }
         return suma;
+        /*
+        Aqui la funcion recibe la matriz bidimensional de los pedidos y la varia
+        ble dia que tiene valor 3 por el dia miercoles.
+        */
     }
     
     public static String obtenerCafeteriaMasPedidos(int [][] pedidos, String[] cafeterias){
@@ -36,6 +40,13 @@ public class Informe {
         }
         
         return cafeterias[indice];
+        /*
+        Recibe la matriz bidimensional de pedidos y una matriz unidimensional
+        de los nombres luego crea un arreglo y llama una funcion donde se envian 
+        los pedidos y los va comparando en el ciclo for y retorna el valor en 
+        la posicion resultante.
+        
+        */
         
     }
     
@@ -47,7 +58,12 @@ public class Informe {
         }
         
         return pedidosMenores;
-    
+    /*
+    Aqui recibe la matriz pedidos luego crea un arreglo unidimensional y llama
+        a una funcion para almacenar en dicho arreglo la menos cantidad de pe
+        didos de cada cafeteria.
+        
+    */
     }
     
     public static int [] obtenerMayorPedidoCafeteria(int [][] pedidos){
@@ -59,6 +75,11 @@ public class Informe {
         
         return pedidosMayores;
     }
+    /*
+    Recibe la matriz bidimensional de pedidos y crea un arreglo unidimensional 
+    y llama una funcion para almacenar en dicho arreglo la mayor cantidad de 
+    pedidos de cada cafeteria.
+    */
     
     
     

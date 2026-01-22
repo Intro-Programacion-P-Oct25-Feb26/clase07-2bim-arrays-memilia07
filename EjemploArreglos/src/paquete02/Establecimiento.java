@@ -9,15 +9,19 @@ package paquete02;
  * @author reroes
  */
 public class Establecimiento {
-    
-    public static String [] obtenerCafeterias(){
-        
-        String [] cafeterias = {
-            "Café Andino", "Café Pacífico", "Café Sierra", "Café Amazónico", 
+
+    public static String[] obtenerCafeterias() {
+
+        String[] cafeterias = {
+            "Café Andino", "Café Pacífico", "Café Sierra", "Café Amazónico",
             "Café Central", "Café Jardín", "Café Tec", "Café Rectorado"
         };
-        
+
         return cafeterias;
-    
+
     }
+    /* Aqui dentro de la funcion ingresan los 8 nombres de las cafeterias y se las 
+almacena en un arreglo.
+     */
+
 }
